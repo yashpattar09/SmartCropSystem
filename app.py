@@ -85,7 +85,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ── PATHS — UPDATE THIS TO YOUR LOCAL FOLDER ─────────────────
-BASE_PATH  = r"D:\College work\ML_6th sem\SmartCropSystem"
+BASE_PATH  = os.path.dirname(os.path.abspath(__file__))
 MODEL_PATH = os.path.join(BASE_PATH, "models")
 DATA_PATH  = os.path.join(BASE_PATH, "datasets")
 
