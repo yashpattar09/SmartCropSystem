@@ -1,0 +1,19 @@
+# Large datasets — don't push to GitHub
+datasets/Agriculture_price_dataset.csv
+datasets/crop_yield.csv
+datasets/price_cleaned.csv
+datasets/yield_cleaned.csv
+datasets/price_featured.csv
+datasets/yield_featured.csv
+
+# PNG charts
+datasets/*.png
+
+# Python cache
+__pycache__/
+*.pyc
+.env
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+notebooks/
